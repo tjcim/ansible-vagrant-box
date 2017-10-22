@@ -21,7 +21,7 @@ Example Playbook
 
     - hosts: vagrant_box
       roles:
-         - { role: tjcim.vagrant_box, tags: 'vagrant_box' }
+         - { role: tjcim.vagrant-box, tags: 'vagrant-box' }
 
 License
 -------
