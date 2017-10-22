@@ -1,2 +1,9 @@
 ---
 # handlers file for ansible-vagrant-box
+- name: restart rsyslog
+  become: yes
+  become_method: sudo
+  service:
+    name: rsyslog
+    state: restarted
+  listen: "restart rsyslog"

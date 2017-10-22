@@ -1,5 +1,4 @@
 ---
-# tasks file for ansible-vagrant-box
 - name: Install python
   become: yes
   become_method: sudo
